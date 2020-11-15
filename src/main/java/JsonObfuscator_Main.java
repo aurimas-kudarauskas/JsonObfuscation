@@ -55,7 +55,7 @@ public class JsonObfuscator_Main {
      */
     private static void InitVariables() {
         InputFileName = "";
-        OutputFileName = "";;
+        OutputFileName = "";
         MapFileName = "mapping.txt";
         ObfuscationMap = new HashMap<>();
     }
