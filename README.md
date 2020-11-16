@@ -14,8 +14,11 @@ In windows application shal be run with the following command:
 java -jar JsonObfuscator-1.jar fileToConvert
 
 This application meant to obfuscate any string in provided json file.
+
 Example of application usage: JsonObfuscator InputJsonFile
+
 Additional options for application:
+
     JsonObfuscator InputJsonFile -o outputFileName - specifie filename where obfuscated json should be saved
     JsonObfuscator InputJsonFile -m mapFileName - specifie filename where map of obfuscated strings should be saved. Default "mapping.txt"
     JsonObfuscator -h - print this help text
